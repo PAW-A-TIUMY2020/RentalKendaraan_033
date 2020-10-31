@@ -96,7 +96,7 @@ namespace RentalKendaraan_033.Controllers
             {
                 try
                 {
-                    _context.Update(customer);
+                    _context.Update(customer);  
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
